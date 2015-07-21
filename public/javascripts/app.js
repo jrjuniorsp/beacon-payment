@@ -101,7 +101,7 @@ app.controller('ProductsNewCtrl', function($scope, $rootScope, $http, $location)
       $location.path('/products');
     })
     .error(function(data, status, headers, config) {
-      alert('Erro');
+      alert('Erro: ' + JSON.stringify(data));
     });
   }
 

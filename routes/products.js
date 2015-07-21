@@ -23,12 +23,12 @@ router.post('/add', function(req, res) {
 		res.status(201).send('OK');	
 	})
 	.catch(function(err) {
+		console.log(err);
 		res.status(500).send('Deu ruim: ' + err);
 	})	
 });
 
 router.delete('/delete/:id', function(req, res) {
-	console.log('AAAAAAA');
 	Products.findById(req.params.id)
 	.then(function(product) {
 		product.destroy()
