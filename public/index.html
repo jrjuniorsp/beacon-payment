@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="PaymentNodeApp">
+<head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Beacon Payment</title>
+	<link rel='stylesheet' href='/stylesheets/bootstrap.css'>
+	<link rel='stylesheet' href='/stylesheets/bootstrap-theme.css'>      
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+   	<script src='/javascripts/jquery-2.1.4.js'></script>
+  	<script src='/javascripts/bootstrap.js'></script>	
+	<script src="javascripts/angular.min.js"></script>
+	<script src="javascripts/angular-route.min.js"></script>
+	<script src="javascripts/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="page-header panel-primary">
+			<h3>Beacon Payment</h3>
+		</div>
+		<h1 class="text-center">{{title}}</h1>
+		<div ng-view></div>
+	</div>	
+</body>
+</html>

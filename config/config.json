@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "passw0rd",
+    "database": "payment_node",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ozclgzmebwlybv",
+    "password": "vNTJpXMVpp4UE2ntz3CYyplz4h",
+    "database": "ddhtrne14jdtrs",
+    "host": "ec2-54-83-20-177.compute-1.amazonaws.com",
+    "dialect": "postgres"
+  }
+}

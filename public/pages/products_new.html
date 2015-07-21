@@ -1,0 +1,42 @@
+<form>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="sku">Sku</label>
+		    	<input type="text" class="form-control" id="sku" placeholder="SKU" ng-model="product.sku">
+		  	</div>	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="name">Product Name</label>
+		    	<input type="text" class="form-control" id="name" placeholder="Product Name" ng-model="product.name">
+		  	</div>	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="stock">Stock</label>
+		    	<input type="number" class="form-control" id="stock" placeholder="Stock" ng-model="product.stock">
+		  	</div>	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="price">Price</label>
+		    	<input type="text" class="form-control" id="price" placeholder="Price" ng-model="product.price">
+		  	</div>	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<button type="button" class="btn btn-default" aria-label="Left Align" ng-click="salvar()">Salvar</button>
+		</div>
+	</div>
+</form>
+
+<a href='/products'>Back</a><br />
+<a href='/'>Home</a>
