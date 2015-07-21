@@ -1,0 +1,6 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - git push git@heroku.com:jr-beacon-payment.git $CIRCLE_SHA1:refs/heads/master
+      - heroku run sequelize db:migrate --env production -m --app jr-beacon-payment
